@@ -1,1 +1,2 @@
-LaravelResources
+#LaravelResources
+- slight styling

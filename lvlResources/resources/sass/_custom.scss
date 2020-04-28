@@ -1,0 +1,90 @@
+body{
+    background-image: url(../images/GuitarShop.jpg);
+    background-color: rgb(41, 43, 49);
+    color: white
+}
+
+.navbar{
+    min-height: 70px;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, .8);
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.edit, .info{    
+    padding-top: 130px;
+}
+
+.edit form{    
+    color: black;
+    width: 35%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+}
+
+.edit form .btn{
+    width: 80%;
+    margin: 25px auto 5px auto;
+}
+
+.edit h1{
+    margin: auto;
+}
+
+.info{
+    text-align: center;
+}
+
+.info .btn{
+    display: inline-block;
+}
+
+.page{
+    width: 80%; 
+    margin: auto;
+    background-color: rgb(41, 43, 49);
+    min-height: 100vh;
+    box-shadow: 0px 4px 10px rgba(41, 43, 49, .8), 0px -4px 10px rgba(41, 43, 49, .8);
+}
+
+.card{
+    width: 40%;
+    margin: auto;
+    color: black;
+}
+
+.list-group{
+    width: 60%;
+    margin: 25px auto auto auto;
+}
+
+.list-group-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.list-group-item:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.btn-secondary{
+    background-color: rgb(68, 71, 78) !important;
+    color: white;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(41, 43, 49) !important;
+}
+
+.btn-primary{
+    background-color: #00a796 !important;
+}
+
+.btn-primary:hover{
+    background-color: #00685d !important;
+}
